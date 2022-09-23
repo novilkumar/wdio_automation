@@ -1,0 +1,64 @@
+{
+  "start": "2022-09-23T05:43:25.275Z",
+  "end": "2022-09-23T05:43:43.913Z",
+  "capabilities": {
+    "acceptInsecureCerts": true,
+    "browserName": "chrome",
+    "browserVersion": "105.0.5195.127",
+    "chrome": {
+      "chromedriverVersion": "105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853})",
+      "userDataDir": "C:\\Users\\360~1.PIC\\AppData\\Local\\Temp\\scoped_dir11900_769376391"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:59062"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "858e8698b89033327bb458be809283d7"
+  },
+  "host": "localhost",
+  "port": 9515,
+  "baseUrl": "https://facebook.com/",
+  "framework": "mocha",
+  "duration": 18638,
+  "suites": [
+    {
+      "title": "Quality Page testsuite",
+      "duration": 18500,
+      "start": "2022-09-23T05:43:25.398Z",
+      "end": "2022-09-23T05:43:43.898Z",
+      "tests": [
+        {
+          "title": "Open Quality page",
+          "start": "2022-09-23T05:43:25.399Z",
+          "end": "2022-09-23T05:43:43.895Z",
+          "duration": 18496,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "c:\\wdio_automation\\test\\specs\\360logicsSpecs\\qualitypage.e2e.spec.ts"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  }
+}
