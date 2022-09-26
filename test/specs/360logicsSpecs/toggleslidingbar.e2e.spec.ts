@@ -12,7 +12,14 @@ describe('Toggle Suite',async function () {
 
     it('Required infor for toggles button',async function() {
         await toggleslidingbar_page.RequiredInfo('Devil', "devil@360logica.com" , 7417189753, "www.360logica.com/", 'Devil is ready for automation')
-        await browser.pause(10000)
+        await browser.pause(5000)
     })
+
+    it('Message successfully', async function() {
+        await toggleslidingbar_page.VerifySendMessage()
+    })
+   /* it('Message Unsuccessfully', async function() {
+        await toggleslidingbar_page.VerifySendMessage("THERE WAS AN ERROR TRYING TO SEND YOUR MESSAGE. PLEASE TRY AGAIN LATER.")
+    })*/
         
 })

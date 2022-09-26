@@ -6,10 +6,10 @@
     "author": "Novil Picea",
     "license": "MIT",
     "devDependencies": {
-        "@wdio/cli": "^7.24.1",
-        "@wdio/local-runner": "^7.24.1",
-        "@wdio/mocha-framework": "^7.24.1",
-        "@wdio/spec-reporter": "^7.24.1",
+        "@wdio/cli": "^7.25.0",
+        "@wdio/local-runner": "^7.25.0",
+        "@wdio/mocha-framework": "^7.25.0",
+        "@wdio/spec-reporter": "^7.25.0",
         "chromedriver": "^105.0.1",
         "firefox": "^104.0.2",
         "ts-node": "^10.9.1",
@@ -21,8 +21,8 @@
         "wdio:firefox": "wdio run test/configs/wdio.firefox.conf.ts"
     },
     "dependencies": {
-        "@wdio/firefox-profile-service": "^7.24.1",
-        "@wdio/selenium-standalone-service": "^7.24.1",
+        "@wdio/firefox-profile-service": "^7.25.0",
+        "@wdio/selenium-standalone-service": "^7.25.0",
         "selenium-standalone": "^8.2.0",
         "wdio-timeline-reporter": "^5.1.4"
     }
