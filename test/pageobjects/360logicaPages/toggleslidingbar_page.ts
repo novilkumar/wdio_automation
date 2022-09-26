@@ -27,7 +27,7 @@ class Toggle extends Page{
         await this.TogglePhone.setValue(TogglePhone)
         await this.ToggleWebsite.setValue(ToggleWebsite)
         await this.ToggleMessage.setValue(ToggleMessage)
-        await (await this.Tooglesendmessage).click()
+        //await (await this.Tooglesendmessage).click()
         browser.pause(3000)
     }
 
